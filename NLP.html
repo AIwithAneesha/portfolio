@@ -46,47 +46,55 @@
 
 
 <main>
-    <div class="NLP-body">
+  
+  <div class="NLP">
 
-    
-    <div class="NLP">
-
-      <div class="NLP-item">
-        <a href="clustering.html" target="_blank">
-            <img src="assets/img/clustering_main_page.png" alt="Clustering" class="NLP__img">
-        </a>
-        <b>
-        <p>Clustering</p>
-        <p>Articles and Projects</p>
-       
-      </div>
-
-      <div class="NLP-item">
-        <a href="transformers.html" target="_blank">
-            <img src="assets/img/transformers.png" alt="Transformers" class="NLP__img">
-        </a>
-        
-        <b>
-        
-        <p>Transformers</p>
-        <p>Articles and Projects</p>
-      </div>
-
-
+    <div class="NLP-item">
+      <h1>Articles on Medium:</h1>
+      <p>A. Clustering and Transformers</p>
       
+      <br>
+      <ol>I. Embeddings, Vector Database and RAG</ol>
+      <li><a href="https://medium.com/@aneesha161994/exploring-diverse-techniques-for-sentence-similarity-bc62058c7972">https://medium.com/@aneesha161994/exploring-diverse-techniques-for-sentence-similarity-bc62058c7972</a></li>
+      <li><a href="https://medium.com/@aneesha161994/what-is-deep-lake-e5798d9122a8">https://medium.com/@aneesha161994/what-is-deep-lake-e5798d9122a8</a></li>
+      <li><a href="https://medium.com/@aneesha161994/clustering-and-retrieval-part-1-d17086fa2117">https://medium.com/@aneesha161994/clustering-and-retrieval-part-1-d17086fa2117</a></li>
+      <li><a href="https://medium.com/@aneesha161994/clustering-and-retrieval-part-2-difference-between-cbow-and-skip-gram-73551f7d9127">https://medium.com/@aneesha161994/clustering-and-retrieval-part-2-difference-between-cbow-and-skip-gram-73551f7d9127</a></li>
+
+      <ol>II. Transformers</ol>
+      <li><a href="https://medium.com/@aneesha161994/transformers-part-1-history-of-nlp-before-transformers-365e1df1c0ff">https://medium.com/@aneesha161994/transformers-part-1-history-of-nlp-before-transformers-365e1df1c0ff</a></li>
+      <li><a href="https://medium.com/@aneesha161994/transformers-part-2-architecture-of-transformer-c807b6e1bd7f">https://medium.com/@aneesha161994/transformers-part-2-architecture-of-transformer-c807b6e1bd7f</a></li>
+      <li><a href="https://medium.com/@aneesha161994/transformers-part-3-why-pytorch-and-not-tensorflow-for-transformers-4bbc99a4267">https://medium.com/@aneesha161994/transformers-part-3-why-pytorch-and-not-tensorflow-for-transformers-4bbc99a4267</a></li>
+      <li><a href="https://medium.com/@aneesha161994/transformers-part-4-building-a-conversational-chatbot-using-transformers-66afac2ea07">https://medium.com/@aneesha161994/transformers-part-4-building-a-conversational-chatbot-using-transformers-66afac2ea07</a></li>
+
+      <ol>III. Using Jinja template to format Documents</ol>
+      <li><a href="https://medium.com/@aneesha161994/jinja-template-part-1-94944a2fdaad">https://medium.com/@aneesha161994/jinja-template-part-1-94944a2fdaad</a></li>
+      <li><a href="https://medium.com/@aneesha161994/jinja-template-part-2-how-to-use-jinja-template-44e5dcc8516f">https://medium.com/@aneesha161994/jinja-template-part-2-how-to-use-jinja-template-44e5dcc8516f</a></li>
+      <li><a href="https://medium.com/@aneesha161994/jinja-template-part-3-understanding-jinja-syntax-simple-replacement-if-else-for-loop-set-and-8cb1ad48944b">https://medium.com/@aneesha161994/jinja-template-part-3-understanding-jinja-syntax-simple-replacement-if-else-for-loop-set-and-8cb1ad48944b</a></li>
+      <li><a href="https://medium.com/@aneesha161994/jinja-template-part-4-understanding-jinja-syntax-include-macro-template-inheritance-raw-output-80b7921112d1">https://medium.com/@aneesha161994/jinja-template-part-4-understanding-jinja-syntax-include-macro-template-inheritance-raw-output-80b7921112d1</a></li>
+
+
+      <br>
+      <br>
+      <h1>Personal Projects</h1>
+      <h3>Conversational Chatbot</h3>
+      <p>The frontend of the app is streamlit</p>
+      <p>The backend of the app is built using Python and <strong>Langchain</strong>. We use <strong>chains, few shot template of langchain</strong>. </p>
+      <p>The LLM Models used are Hugging face API and Openai api.The other free APIs used are Google calender API to set the reminder and Weather API.</p>
+      <p>Text is classified using OpenAI Chain(create_tagging_chain) into mental,therapy ,anxious,depressed,hurt,stress,'addiction', weather related,Remainder,Play a video,play a game,Play a music,Tell a joke, general knowledge question</p>
+      <p>1.If classified into mental,therapy ,anxious,depressed,hurt,stress,addiction, using the LLMChain and Huggingface API</p>
+      <p>2.If weather related then weather API(Free is used)</p>
+      <p>3.If remainder, the date is segmented into start and end datetime then added to Google Calender</p>
+      <p><strong>RAG</strong> used with <strong>Pinecone</strong> for context management</p>
+      <p>You can find the source code for the Conversational Chatbot on GitHub: <a href="https://github.com/AIwithAneesha/Conversational_chatbot">https://github.com/AIwithAneesha/Conversational_chatbot</a></p>
+     
     </div>
 
-    <!-- <div class="NLP-item2">
-        <a href="llama.html" target="_blank">
-            <img src="assets/img/LLama.png" alt="LLama" class="NLP2__img">
-        </a>
-        <b>
-        <p>LLama</p>
-        <p>Articles and Projects</p>
-      </div>
-  </div> -->
+
+  </div>
+
 
 </main>
+
 
 
       <!--===== FOOTER =====-->

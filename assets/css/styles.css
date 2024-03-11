@@ -167,7 +167,7 @@ img {
 
 .NLP-item {
   flex-basis: calc(33.33% - 20px); /* Set the width of each item (adjust as needed) */
-  margin-top: 20px;
+  margin-top: 100px;
   margin-bottom: 20px; /* Add margin to create space between items */
   text-align: center; /* Center the content within the box */
 }
